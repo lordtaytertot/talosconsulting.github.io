@@ -3,3 +3,37 @@ layout: test
 title: Talos Consulting
 subtitle: Led by engineers, driven by results.
 ---
+<style>
+  /* 1. Moves the entire block much closer to the top bar */
+  .header-section {
+    display: block !important;
+    text-align: center !important;
+    padding-top: 50px !important;  /* Small fixed gap from the top bar */
+    padding-bottom: 20px !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+
+  /* 2. Restores the large font size and prevents the "g" from dropping */
+  .header-section h1 {
+    display: block !important;
+    white-space: nowrap !important; /* The "g" stays put */
+    font-size: 50px !important;     /* Original large size */
+    font-weight: bold !important;
+    margin: 0 auto 10px auto !important;
+  }
+
+  /* 3. Restores the subtitle size */
+  .header-section .page-subheading {
+    display: block !important;
+    font-size: 24px !important;     /* Original subtitle size */
+    max-width: 90%;
+    margin: 0 auto !important;
+  }
+
+  /* 4. Removes any extra theme-default spacing */
+  .intro-header {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+</style>
