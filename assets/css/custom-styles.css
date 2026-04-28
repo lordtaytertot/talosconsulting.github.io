@@ -1,0 +1,18 @@
+/* Targets the main title on subpages (About, Careers, etc.) */
+.intro-header .page-heading h1, 
+.intro-header .post-heading h1 {
+  font-size: 50px !important;     /* Matches your homepage title size */
+  font-weight: bold !important;
+  white-space: nowrap;            /* Prevents the "g" wrap issue here too */
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+  text-align: center;
+}
+
+/* Optional: If you want the subpage headers to sit higher up like the homepage */
+.intro-header.big-img, 
+.intro-header.no-img {
+  padding-top: 50px !important;
+  padding-bottom: 30px !important;
+  margin-bottom: 20px !important;
+}
